@@ -1,0 +1,23 @@
+div#mountain { left: 50%; right: 50%; margin-left: -450px; background-position: center; }
+div#slugLine { width: 400px; height: 21px; margin-left: -200px; top: 20px; background-size: 100% 100%; }
+div#mug { width: 160px; height: 160px; top: 46px; background-size: 100% 100%; }
+div#dogTags { width: 100px; height: 183px; right: -20px; background-size: 100% 100%; }
+div#orrsLogo { left: 5px; }
+div#bizCard { left: 162px; }
+
+div#headerPhone { top: 250px; left: 162px; right: auto; text-align: left; font-size: .8em; }
+div#bizCard p { display: none; }
+
+div.indexFeature { width: 92%; }
+
+div#contentWrap { background: white url('../images/wrapBackground.jpg') no-repeat;  background-position: fixed; }
+
+li.propertyTileSearch { float: none; margin: 0 auto 30px auto; }
+li.propertyTile { float: none; margin: 0 auto 30px auto; }
+
+div.hanger { display: block; position: absolute; right: 0; padding: 7px 20px 4px 20px; border-left: none; border-bottom: 1px solid #000; border-radius: 0 0 0 0; text-align: center; color: #fff; z-index: 10; background-color: #d52f1e; }
+
+
+div.gettingHere { display: block; width: 90%; position: relative; margin: 10px auto; }
+
+

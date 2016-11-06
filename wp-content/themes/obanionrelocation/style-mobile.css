@@ -1,0 +1,155 @@
+body { width: 800px; margin: 0; padding: 0; background: #fff; font-family: Arial; font-size: 16px;}
+div { display: block; }
+.clear { clear: both; height: 0px;}
+a { text-decoration: none; color: #232f93; cursor: pointer;}
+a:hover { text-decoration: underline; }
+.block { display: block; }
+.left  { float: left; }
+.margin  { margin: 8px 0; }
+.marginBig  { margin: 25px 0; }
+.marginTop  { margin: 15px 0 0 0; }
+.hidden { display: none !important; }
+*:focus {outline: none;}
+
+.textcenter { text-align: center;}
+.center { position: relative; margin: auto; display: block;}
+.small {font-size: 10px;}
+.disclaimer {font-size: 11px; line-height: 12px; font-weight: bold; color: #6C1415;}
+.medium {font-size: 13px;}
+.right {float: right;}
+.header-meta {float: right; font-weight: normal; font-size: 14px;}
+
+div#wrap { display: block; width: 100%; position: left; margin: 0; padding: 35px 0 200px 0;}
+
+
+
+
+h1,h2,h3,h4,h5,h6 { padding: 0; margin: 0; }
+h1 { font-size: 1.2em; color: #232f93; }
+h2 { margin: 10px 0 !important; font-size: 1.2em; color: #232f93; }
+h3 { margin: 10px 0 !important; font-size: 1.4em; color: #232f93; text-decoration: underline;}
+h4 { margin: 10px 0 0 0 !important; font-size: .9em; color: #232f93; text-decoration: underline;}
+
+p { padding: 0; margin: 0 0 10px 0; }
+
+
+div#header { display: block; position: fixed; top: 0; left: 0; z-index: 15; width: 100%; }
+img#logo { display: block; width: 100%;}
+div#menu { display: block; width: 100%; margin-bottom: 10px; background-color: #fff; padding: 0;height: 60px;}
+div#footer { display: block; position: fixed; bottom: 0; left: 0; z-index: 10; width: 100%; }
+img#sig { display: block; position: absolute; bottom: 0; left: 0; z-index: 10; width: 100%; }
+img#mug { display: block; position: absolute; bottom: 0; left: 0; z-index: 20; }
+img#callButton { display: block; position: absolute; bottom: 35px; right: 8px; z-index: 20; }
+div#webSwitch { display: block; position: absolute; bottom: 0; right: 0; left: 0; margin: 0 auto; z-index: 30; font-weight: bolder; color: white; font-size: 18px; text-align: center; width: 250px; height: 25px; border: 3px solid #3b475f; border-bottom: 0; background-color: #6d7fa2; border-radius: 10px 10px 0 0;}
+
+
+div.bigMenu {display: block; clear: both; width: 95%; padding: 2px 0 20px 15px; font-size: 1.3em; margin-top: 20px; border-bottom: 2px dotted #dddddd;  }
+div.bigMenu a.title { font-weight: bold; font-size: 3em; color: #232f93; display: block; clear: left; letter-spacing: -.05em; }
+div.bigMenu a.viewMore { font-size: 1.2em; color: #232f93; display: block; clear: left; }
+
+img.banner { margin-bottom: 15px; }
+img.tilead { margin: 7px 11px; display: block; float: left;}
+img.noborder {border: 0 !important;}
+img.bottomborder {border: 0 !important; border-bottom: 1px solid #000 !important; padding: 0 !important; padding: 0 0 250px 0; }
+
+div#siteMap { text-align: center; margin-top: 20px; font-size: .85em; }
+
+
+div#content-wrapper {width: 100%; display: block; position: relative; margin: 10px auto; font-size: 16px; padding: 120px 0 200px 0;}
+div#content-margin {width: 95%; display: block; position: relative; margin: 10px auto; font-size: 16px; }
+
+p.light { color: #999; margin-top:2px; font-size: 10px;}
+p.light a { font-size: 14px; }
+
+div#rentalLink { margin: 0 10px 0 0; font-size: .8em; float: right; display:block; width: 150px; background-color: #9E0000; border: 2px solid #000; padding: 6px 10px 5px 10px; color: #fff; border-radius: 12px 12px 0 0;}
+div#rentalLink h3{text-decoration: none !important; margin-top: 0px !important;font-size: 17px; margin-bottom: 2px !important;color: #FBFFBE; text-align: center;}
+div#rentalLink a{color: #fff;}
+div#rentalLink img {width: 22px; display: block; float: left; margin-right: 10px;}
+
+form { margin-top: 20px; }
+form p {margin: 3px 0; clear: both; display: block; float: left; }
+form label { width: 175px; font-family: Verdana; display: block; float: left; clear: left; font-size: 12px; color: #232f93; margin-top: 5px; }
+form input[type=text] { width: 250px; border: 1px solid #909090; padding: 4px; }
+form input[type=checkbox] {padding: 0; margin: 0 4px 0 0; }
+form textarea { width: 250px; height: 45px; border: 1px solid #909090; padding: 4px; resize: none;}
+form h3 {display:block; float: left; clear: both; font-size: 15px; text-decoration: none; margin-top: 13px !important;}
+
+form#filter h3 {display:block; float: left; clear: both; font-size: 15px; text-decoration: none; margin-top: 0px !important;}
+form#filter { margin: auto; position: relative; display:block; width: 90%; text-align: center;}
+form#filter input[type=text] { width: 100%; border-radius: 4px; margin: 20px 0; display: block; clear: both; font-size: 3.8em;}
+form#filter select { width: 100%; font-size: 13px; padding: 2px; margin: 20px 0; display: block; clear: both; font-size: 3.8em;}
+form#filter a { position: relative; margin: 15px auto; color:#232f93;  display: block; clear: both; font-size: 3.8em;}
+input#submit { display: block; position: relative; margin: 15px auto; font-size: 3.8em; clear: both;}
+form div.checkbox {display:block; float: left; width: 180px; font-size: 12px; padding: 4px 0; }
+form div.addInfo {display:block; float: left; clear: both; font-size: 12px; margin: 8px 4px; }
+
+img.thumbnail { width: 190px; display: block; float: left; margin: 3px; border: 1px solid #000; padding: 1px; }
+
+div.error {display: block;clear: both;padding: 20px 20px;margin: 10px 30px;font-weight: bold; border: 1px solid #000; -moz-border-radius: 5px; border-radius: 5px;}
+div.success {display: block;clear: both;padding: 20px 20px;margin: 10px 20px;font-weight: bold; border: 1px solid #000; -moz-border-radius: 5px; border-radius: 5px;}
+div.error {background-color: #ffff00;}
+div.success {background-color: #def9e1; color: black;}
+
+div.availNow { display: block; margin: 0; font-size: 1.8em; padding: 5px 0; width: 100%; border: 1px solid #7E2626; text-align: center; color: yellow; font-weight: bold; background-color: #7E2626;}
+img.newlisting { display: block; position: absolute; z-index: 5; left: 10px; top: 10px;  width: 60px !important; height: 60px !important; border: 0 !important; }
+
+
+a.button { background-color: yellow; -moz-border-radius: 6px; width: 200px; border-radius: 6px; font-size: 13px; padding: 10px; clear: both; display: block; position: relative; margin: 5px auto; border: 1px solid #000; text-align: center;}
+a.iPhoneButton{ text-transform: uppercase; font-weight: bold; color: #000; background-color: #d0d0d0; width: 50%; border-radius: 20px; font-size: 2.5em; padding: 10px 40px; clear: both; display: block; position: relative; margin: 35px auto; border: 1px solid #000; text-align: center;}
+a.menuButton{ text-transform: uppercase; font-weight: bold; padding: 20px 0; color: #fff; background: #616161 url(images-mobile/iphoneMenuRepeat.jpg) repeat-x; width: 50%; font-size: 2.5em; float: left; display: block; position: relative; margin:0; border-bottom: 1px solid #000; border-top: 1px solid #000; text-align: center;}
+span.small {font-size: 12px;}
+
+#imageContainer img { margin-bottom: 0 !important; } 
+
+
+
+
+ul.wpp_row_view { list-style: outside none; margin: 0; padding: 0; font-size: 1.2em; width: 100%;float: left; display:block;}
+
+li.property_div { position: relative; width: 100%; background-color: #fff; padding: 10px 10px 30px 10px; margin-top: 20px; border-bottom: 2px dotted #000; }
+li.property_div a { font-weight: bold; display: block; position: relative; margin: 0 auto; padding: 0; color: #505387; font-size: 2em; text-align: center;}
+li.property_div img { display: block; float: left; margin: 0 0 5px 0; padding: 0; border: 1px solid #000; width: 100%;} 
+span.meta { display: block; font-size: 1.0em; color: #000; width: 100%; text-align: center;}
+div.widgetmeta { display: block; font-size: .75em; width: 380px; margin: 0 auto;}
+p.widgetaddress { margin: 0 auto; padding: 0; font-size: .65em; width: 380px; }
+span.megaMeta { display: block; clear: right; font-size: .8em; color: #505387; }
+.wpp_pagination_slider_status { display: none; }
+
+h1.property-title { width: 100%; border-bottom: 1px dotted #797b79; font-size: 2.4em;}
+h3.entry-subtitle { border: 0; text-decoration: none; font-size: .9em; line-height: .9em; font-style: oblique; font-weight: normal; color:#505387;  margin-top: 0; padding-top: 0; }
+h3.entry-subtitle a {font-size: .82em;}
+h3.entry-subtitle div.right {display: block; float: right; margin: 0 5px;}
+
+div#gallery { width: 440px; display: block; float: right; }
+img.galleryimage { width: 100%; padding: 1px; border: 1px solid #505387; }
+img.gallerythumb { width: 48%; padding: 1px; border: 1px solid #505387; display: block; float: left; margin: 3px; }
+
+div#information { width: 100%; display: block; float: left; cursor: default; font-size: 2em;}
+
+div#information h2 { clear: both; width: 100%; border-bottom: 1px dotted #797b79; font-size: .95em; margin-top: 20px !important;}
+
+div.addresslist { margin: 0; padding: 0; font-size: .75em; width: 260px; display:block; float: left; clear: right; }
+p.address { display: block; float: left; font-size: .98em; font-weight: bold; }
+p.content { display: block; float: left; font-size: .93em; }
+p.viewingDisclaimer { display: block; float: left; margin: 5px 0; padding: 10px; font-size: .85em; background-color: #fdffd6; border: 3px solid #f8ff80; }
+
+div.row { background-color: #fff; margin: 0; width: 100%; padding: 3px 0; min-height: 18px; }
+p.label { display: block; float: left; width: 60%; background-color: transparent;}
+p.value { display: block; float: left; width: 40%; background-color: transparent; text-align: right; }
+
+ul.clearfix { list-style: outside square; margin: 0 0 0 15px; padding: 0; font-size: .85em; }
+ul.clearfix li { margin: 10px 0; }
+
+div.googlemap { display: block; position: relative; width:430px; height:250px; border: 1px solid #505387; margin: 8px auto; }
+
+form.property { margin-top: 20px; }
+form.property p {margin: 3px 0; clear: both; display: block; float: left; }
+form.property label { width: 120px; font-family: Verdana; display: block; float: left; clear: left; font-size: 12px; color: #232f93; margin: 5px 4px 0 0; }
+form.property input[type=text] { width: 160px; border: 1px solid #909090; padding: 4px; }
+form.property textarea { width: 160px; height: 45px; border: 1px solid #909090; padding: 4px; resize: none;}
+
+form.available { font-size: 13px; margin-bottom: 10px; }
+div#pagination {margin-top: 0 !important; text-align: center; display: block; font-size: 1.9em;} 
+
+a.applyButton {display: block; clear: both; margin: 10px 0; padding: 10px 0; text-align: center; border: 1px solid #000; background-color: #9E0000; color: #fff; font-weight: bold;}
+a.applyButton:hover {background-color: #800000; color: #FBFFBE; text-decoration: none;}

@@ -1,0 +1,222 @@
+* { letter-spacing: 0em; font-family: "Myriad Pro", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial; font-weight: 300; }
+a { color: #d52f1e; }
+a:hover { cursor: pointer !important; }
+*:focus { outline: none; }
+
+@font-face { font-family: "GatsbyFLF-Bold"; src: url('../fonts/gatsby/GatsbyFLF-Bold.ttf'), url('../fonts/gatsby/GatsbyFLF-Bold.ttf'); /* IE */ }
+@font-face { font-family: "Market Deco"; src: url('../fonts/Market_Deco.ttf'), url('../fonts/Market_Deco.ttf'); /* IE */ }
+@font-face { font-family: "Marketing Script"; src: url('../fonts/marketing_script/MarketingScript.ttf'), url('../fonts/marketing_script/MarketingScript.ttf'); /* IE */ }
+
+
+html, body { margin: 0 0 0 0; width: 100%; height: 100%; }
+html { padding: 0; }
+body { padding: 20px 0 0 0; }
+
+/* General Styles */
+
+h1 { color: #fbffbe; margin: 0; padding: 0; font-size: 2em; line-height: .8em; }
+span.microH1 { color: #fbffbe; margin: 0; padding: 0; font-size: .7em; line-height: .8em; }
+h2 { color: #001a72; margin: 0 0 10px 0; padding: 0; font-size: 1.6em; line-height: .8em; }
+h2.military { color: #ffffff; margin: 0 0 10px 0; padding: 0; font-size: 1.6em; line-height: .8em; text-transform: uppercase; font-family: "Times New Roman" !important; font-weight: bold !important; text-decoration: underline; margin-top: -10px; }
+h3 { color: #d52f1e; margin: 10px 0 10px 0; padding: 0; font-size: 1.4em; line-height: .8em; }
+h3.signTopper { display: block; position: relative; width: 100%; top: 0; margin: 0; background-color: #001a72; color: #fbffbe; padding: 12px 0 6px; font-size: 1.4em; line-height: .8em; text-transform: uppercase;  border-bottom: 1px solid #000; }
+h3.propertyManagement { text-align: right; color: #001a72; margin: 200px 0 0 0; padding: 0 10px 0 0; font-size: 3em; line-height: .8em; font-family: "GatsbyFLF-Bold" !important;}
+h4 { color: #fff; margin: 0 0 10px 0; padding: 5px 3px 2px 3px; font-size: 1.4em; border-radius: 3px; background-color: #001a72; }
+h5 { color: #fff; margin: 0 0 10px 0; padding: 5px 3px 2px 3px; font-size: 1em; border-radius: 3px; background-color: #d52f1e; }
+h6 { color: #001a72; margin: 2px 0; padding: 8px 0px 0px 0px; font-size: 2.5em; line-height: 1em; text-align: center; border-top: 1px solid #001a72; border-bottom: 1px solid #001a72; text-decoration: underline; background-color: #fbffbe; }
+.bullet { color: #001a72; }
+
+.large { font-size: 1.2em; }
+.small { font-size: .8em; }
+.tiny { font-size: .4em; }
+.white { color: white; }
+
+.clear { display: block; clear: both; }
+.noBorder { border: 0 !important; }
+.textRight { text-align: right; }
+
+
+.marketDeco { font-family: "Market Deco" !important; }
+.marketingScript { font-family: "Marketing Script" !important; }
+
+div#insideContent { max-width: 96%; display: block; position: relative; margin: 20px auto; background: white;}
+
+
+
+/* Header Styles */
+div#header { margin: 0; padding: 0; width: 100%; height: 307px; position: relative; background: white url('../images/background.png') repeat-x; background-position: left; overflow: hidden; }
+div#slugLine { padding: 0; width: 100%; height: 85px; display: block; position: absolute; top: -5px; text-align: center; font-size: 2.8em; text-decoration: underline; color: #001a72; }
+div#flag { margin: 0; padding: 0; width: 240px; height: 134px; display: block; position: absolute; top: 70px; right: 15%; background: transparent url('../images/flagStars.png') no-repeat; z-index: 15;}
+div#mug { margin: 0; padding: 0; width: 199px; height: 199px; display: block; position: absolute; top: 6px; left: -10px; background: transparent url('../images/todd_obanion.png') no-repeat; z-index: 5;}
+div#tagLine { margin: 0; padding: 0; width: 400px; height: 20px; display: block; position: absolute; top: 100px; left: 160px; background: transparent; z-index: 5; color: #fff; font-style: italic}
+div#mountain { margin: 0; padding: 0; width: 100%; height: 154px; display: block; position: absolute; top: 52px; right: 0px; background: transparent url('../images/mountain.png') no-repeat; background-position: left; background-size: cover; overflow: hidden;}
+div#dogTags { margin: 0; padding: 0; width: 127px; height: 233px; display: block; position: absolute; top: -20px; right: 10px; background: transparent url('../images/dogTags.png') no-repeat; background-position: left; z-index: 5; }
+div#orrsLogo { margin: 0; padding: 0; width: 250px; height: 173px; display: block; position: absolute; top: 130px; left: 50%; right: 50%; margin-left: -125px; background: transparent url('../images/orrsLogo_Large.png') no-repeat; background-position: left; z-index: 20; }
+div#bizCard { margin: 0; padding: 0; width: 500px; height: 53px; display: block; position: absolute; top: 220px; left: 12px; background: transparent; z-index: 10; }
+div#headerServices { margin: 0; padding: 0; width: 440px; height: 23px; display: block; position: absolute; top: 224px; right: 10px; background: transparent; z-index: 10; text-align: right; font-size: 1.1em; color: #fff; }
+div#bizCard p { color: #ffffff; margin: 0; padding: 0; font-size: .8em; line-height: 1.2em; }
+
+
+
+
+/* Index Styles */
+
+div.headerTextWrap { width: 100%; margin: 0 0 0 0; border-top: 6px solid #7d92d8; border-bottom: 6px solid #7d92d8; background-color: #fbffbe; }
+div.featureWrap { width: 98%; height: 460px; display: block; position: relative; margin: 0 auto 8px auto; }
+div#featureImage { width: 100%; height: 260px; display: block; position: relative; margin: 0 auto 30px auto; background: white url('../images/featureImage_kitchen.jpg') no-repeat center center; background-size: cover; }
+div#idxSearchWrap { display: block; float: left; width: 348px; height: 416px; box-shadow: 0px 0px 10px #2b2b2b; background: white url('../images/idx.png') no-repeat; border: 1px solid #000; }
+div#movingAlaska { display: block; float: left; min-width: 350px; max-width: 480px; height: 216px;  padding-right: 20px; font-size: .9em; }
+
+
+div.indexTileWrap { width: 100%; background-color: #fff; display: block; position: relative; margin: 0 auto; text-align: center; padding: 0 0 30px 0; }
+div.fontTile { background: white url('../images/tileBackground.jpg') repeat-x bottom center; display: block; position: relative; float: left; width: 32%; border: 1px solid #c9c9c9; padding: 0; border-radius: 8px; height: 300px; margin: 15px .4% 0 .4%; text-align: center; cursor: pointer;}
+div.fontTileLeft{ margin-left: .8%;}
+div.fontTile p { width: 96%; display: block; position: relative; margin: 10px auto; }
+
+div.propertyManagementTile { background: white url('../images/goldHouseReflect.jpg') repeat-x center center; background-size: cover;}
+
+div.fontTileMilitary { background: white url('../images/militaryRelocation.jpg') repeat-x center center; background-size: auto 100%;}
+div.fontTileMilitary p { color: #fbffbe; font-size: 1.2em; margin-top: -5px; }
+div#militarySeals { display: block; position: relative; margin: 0 auto; top: -5%; max-height: 280px; min-height: 73%; width: 90%; max-width: 500px; min-width: 350px; background: transparent url('../images/militarySeals.png') repeat-x center center; background-size: 100% auto; }
+
+div#forRentBackground { display: block; position: absolute; margin: 0 auto; width: 100%; height: 210px; bottom: 0; background: transparent url('../images/forRentBackground.jpg') no-repeat center center; background-size: cover; border-radius: 0 0 8px 8px; border-top: 1px solid #000; }
+div#forSaleBackground { display: block; position: absolute; margin: 0 auto; width: 100%; height: 210px; bottom: 0; background: transparent url('../images/forSaleBackground.jpg') no-repeat center center; background-size: cover; border-radius: 0 0 8px 8px; border-top: 1px solid #000; }
+div#buttonSeeRentals { display: block; position: absolute; margin: 0 auto; width: 150px; height: 53px; bottom: 0; background: transparent url('../images/button_seeRentals.png') no-repeat center center; background-size: cover; border-radius: 0 0 8px 8px;  }
+div#buttonSeeSales { display: block; position: absolute; margin: 0 auto; width: 150px; height: 53px; bottom: 0; background: transparent url('../images/button_seeSales.png') no-repeat center center; background-size: cover; border-radius: 0 0 8px 8px;  }
+div#seaAirLand { display: block; position: relative; margin: 0 auto; width: 100%; height: 176px; background: transparent url('../images/seaAirLand.jpg') repeat-x center center; background-size: cover; border-radius: 8px 8px 0 0; border-bottom: 1px solid #000; }
+div#handShake { display: block; position: relative; margin: 0 auto; width: 100%; height: 176px; background: transparent url('../images/handShake.png') no-repeat center center; background-size: cover; border-radius: 8px 8px 0 0; }
+
+
+
+
+
+div#indexForRent { width: 30%; min-width: 300px; display: block; padding: 20px 1.5%; position: relative; float: left; text-align: center;  border-top: 1px solid #c9c9c9; background-color: #fafafa;}
+div#indexForRentFeatured { width: 100%; display: block; padding: 0; position: relative; clear: both; text-align: center;}
+div#indexForRentList { width: 100%; display: block; position: relative; clear: both; margin-top: 10px; }
+div.featuredRentPhoto { width: 98%; height: 300px; display: block; cursor: pointer; position: relative; border: 1px solid #000; margin: 0 auto 20px; }
+div.featuredRentInfo { display: block; width: 100%; float: left; text-align: left; }
+div#indexForRentList ul { list-style: none; padding: 0; margin: 0; width: 100%; height: 300px; overflow: auto; }
+div#indexForRentList li { list-style: none; padding: 3px; margin: 0 0 10px 0; width: 95%; display: block; clear: both; }
+div.featuredRentListPhoto { width: 128px; height: 96px; display: block; float: left; cursor: pointer; position: relative; border: 1px solid #000; margin-right: 20px; }
+div.featuredRentListInfo { display: block; float: left; min-width: 35%; text-align: left; }
+
+div#indexForSale { width: 30%; min-width: 300px;  display: block; padding: 20px 1.5%; position: relative; float: left; text-align: center; border-top: 1px solid #c9c9c9; background-color: #fafafa;}
+div#indexForSaleFeatured { width: 100%; display: block; padding: 0; position: relative; clear: both; text-align: center;}
+div#indexForSaleList { width: 100%; display: block; position: relative; clear: both; margin-top: 10px; }
+div.featuredSalePhoto { width: 98%; height: 300px; display: block; cursor: pointer; position: relative; border: 1px solid #000; margin: 0 auto 20px; }
+div.featuredSaleInfo { display: block; width: 100%; float: left; text-align: left; }
+div#indexForSaleList ul { list-style: none; padding: 0; margin: 0; width: 100%; height: 300px; overflow: auto; }
+div#indexForSaleList li { list-style: none; padding: 3px; margin: 0 0 10px 0; width: 95%; display: block; clear: both; }
+div.featuredSaleListPhoto { width: 128px; height: 96px; display: block; float: left; cursor: pointer; position: relative; border: 1px solid #000; margin-right: 20px; }
+div.featuredSaleListInfo { display: block; float: left; min-width: 35%; text-align: left; }
+
+
+div.propertyMeta { display: block; padding: 15px; margin: 10px 0; border-radius: 0 0 14px 14px; border: 1px dotted #001a72; background-color: #ffffee; font-size: .9em; text-align: left;}
+
+div#mortgageCalculator { width: 31%; min-width: 300px; display: block; padding: 20px 1.5%; position: absolute; right: 20px; text-align: right; border-top: 1px solid #c9c9c9; background: white url('../images/graphPaperBackground.png') repeat center center; min-height: 400px; }
+div#mortgageCalculator input[type=text] { width: 200px; font-size: 1em; padding: 4px 4px 2px; border: 1px solid #595959; border-radius: 4px; }
+div#mortgageCalculator input[type=submit] { width: 100px; font-size: 1em; padding: 6px 4px 0px; border: 1px solid #595959; border-radius: 4px; }
+
+div#henriRoosBubble { display: block; float: left; margin: 0 20px; width: 415px; height: 284px; background: transparent url('../images/henriRoosBubble.jpg') no-repeat center center; }
+div#mortgageCalculatorResults { width: 92%; min-width: 300px; display: block; padding: 20px 1.5%; position: relative; float: right; text-align: left; margin-top: 10px; background-color: #fff; border: 1px solid #c9c9c9; min-height: 100px; }
+
+
+
+
+div.friendOfOBanion { display: block; width: 800px; min-height: 300px; position: relative; margin: auto;}
+
+
+/* Feature Styles */
+div.indexFeature { display: block; float: left; width: 306px; height: 306px; border: 1px solid #c9c9c9; border-radius: 8px; margin: 5px; background: white; opacity: .95; }
+div#propertyWrap { padding: 20px 10px; width: auto; display: block; position: relative; margin: auto; }
+
+
+
+
+div#trustedBusiness { width: 100%; background-color: #ffffff; display: block; text-align: center; margin: 0 auto; text-align: center; border-top: 2px dotted #aaa; padding: 30px 0 30px 0; }
+
+
+
+/* Property Tiles */
+ul.propertyTiles { list-style: none; margin: 0; padding: 0; display: block; clear: both; height: auto; }
+li.propertyTileSearch { display: block; position: relative; float: left; width: 275px; height: 400px; list-style: none; margin: 0 10px 30px 0; padding: 10px; border: 1px solid #a8a8a8; border-radius: 4px; text-align: left; background-color: #fbffbe; }
+li.propertyTile { display: block; position: relative; float: left; width: 275px; height: 400px; list-style: none; margin: 0 10px 30px 0; padding: 10px; border: 1px solid #a8a8a8; border-radius: 4px; text-align: center; cursor: pointer; background-color: #fff; }
+li.propertyTile div.propertyTilePhoto { width: 275px; height: 240px; display: block; position: relative; clear: both; background-size: cover; background-position: center center; border: 1px solid #777777; margin-bottom: 10px;}
+li.propertyTile:hover { box-shadow: 0px 0px 14px #5a5a5a; }
+li.propertyTile h2 { font-size: 1.1em; color: #000; margin: 3px; padding: 0; text-decoration: 0; }
+li.propertyTile div.propertyTileAddress { font-size: .8em; color: #001a72; border-top: 1px dotted #001a72; border-bottom: 1px dotted #001a72; padding: 3px; margin-bottom: 5px; }
+li.propertyTile div.propertyTileMeta { font-size: .8em;  text-align: left;}
+li.propertyTile div.propertyTilePhoto div.quickAccessCode { display: block; position: absolute; bottom: 0px; left: 50%; right: 50%; margin-left: -75px; padding: 2px; width: 150px; font-size: .6em; opacity: .8; border-radius: 4px 4px 0 0; background-color: #fff; border-left: 1px solid #aaa; border-right: 1px solid #aaa; border-top: 1px solid #aaa; }
+
+
+form#filter input[type=text] { display: block; clear: both; width: 265px; font-size: 1em; padding: 3px; margin-bottom: 5px; border: 1px solid #eee; }
+form#filter input[type=submit] { display: block; clear: both; width: 275px; font-size: 1.3em; padding: 3px; margin-bottom: 5px; border: 1px solid #eee; }
+form#filter select { display: block; clear: both; width: 275px; font-size: 1.3em; padding: 3px; margin-bottom: 5px; border: 1px solid #eee; }
+
+
+div.hanger { display: block; position: absolute; right: 0; padding: 7px 20px 4px 20px; border-left: 1px solid #000; border-bottom: 1px solid #000; border-radius: 0 0 0 18px; text-align: center; color: #fff; z-index: 10; background-color: #d52f1e; }
+div.hanger a { color: #fff; text-decoration: none; }
+
+
+div.banner { margin-left: -165px; margin-bottom: -35px; display: block; width: 330px; height: 57px; position: relative; top: -25px; left: 50%; right: 50%; background: transparent url('../images/banner.png') no-repeat; background-position: center; overflow: hidden; color: #fbffbe; text-align: center; padding-top: 5px; font-size: 1.8em; }
+div.burst { color: #19c22d; text-align: center; padding-top: 5px; font-size: 1em; font-weight: bold; }
+
+div.backgroundImage { display: block; position: absolute; width: 100%; height: 100%; z-index: -1; }
+
+div#gallery { display: block; float: left; width: 60%; border-right: 1px dotted #aaa; }
+div#gallery img { width: 100%; }
+
+div.military { display: block; min-width: 45%; float: left; margin-right: 4%; }
+div.gettingHere { display: block; width: 30%; float: left; margin-right: 3%; }
+div.gettingHere img { width: 100%;}
+
+div.wpp_top_pagination { display: none !important; }
+
+
+
+
+
+/* Our Agents */
+ul.agents { display: block; margin: 0; padding: 0; width: 100%; height: 100%; list-style: none; }
+ul.agents>li { display: block; clear: both; margin: 0 0 20px 0; width: 100%; min-height: 270px; list-style: none; }
+span.tag { color: #001a72; }
+ul.agents li h2 { padding-top: 30px; }
+img.agentMug { display: block; float: left; margin: 0 10px 10px 0; width: 250px; height: 250px; border: 1px solid #444; box-shadow: 0px 0px 10px #cacaca; }
+img.agentMugLg { display: block; position: relative; margin: 0 0 20px 0; width: 400px; border: 1px solid #444; box-shadow: 0px 0px 10px #cacaca; }
+div.photoColumn { display: block; float: left; margin: 0; min-width: 420px; text-align: left;}
+div.contentColumn { display: block; float: left; max-width: 750px; border-left: 1px dotted #444; padding: 0 20px; }
+
+
+form#idxSearch { display: block; position: relative; top: 195px; left: 55px; width: 240px; }
+form#idxSearch p { text-align: right; }
+form#idxSearch input[type=text] { font-size: 1em; width: 222px; border-radius: 8px; border: 1px solid #444; padding: 5px 8px 3px 8px; margin: 0; }
+form#idxSearch input[type=submit] { font-size: 1em; width: 50%; float: right; border-radius: 8px; border: 1px solid #444; padding:  5px 8px 3px 8px; margin: 5px 0 0 0; }
+
+
+
+div#footer { display: block; clear: both; height: 300px; margin-top: 10px; padding: 20px; background: transparent url('../images/backgroundFooter.png') repeat; color: #fff; font-size: .8em; }
+div#footer a { color: #fbffbe; }
+div#footer ul { list-style: none; margin: 5px 0 0 0; padding: 0; }
+div#footer ul li { list-style: none; margin: 0; padding: 0; }
+div#footer a { text-decoration: none !important; }
+div#footer h1 { font-size: 1.2em; margin-bottom: 5px; }
+div#footer h2 { display: block; clear: both; font-size: 1.2em; margin: 15px 0 5px 0; color: #fff; }
+div.footerColumn { display: block; float: left; width: 28%; margin: 0 1%; padding: 1%; border-right: 1px dotted #293a74; height:260px; }
+div.footerColumnRight { display: block; float: left; width: 28%; margin: 0 1%; padding: 1%; border: 0 !important; text-align: left; }
+
+img.socialIcon { width: 48px; border-radius: 4px; }
+
+
+
+/* div.hoverForMore { display: block; position: absolute; top: 0px; left: 50%; right: 50%; margin-left: -103px; border: 1px solid #444; font-size: .6em; background-color: #2b446d; padding: 3px; color: #fff; text-align: center; width: 200px; border-radius: 0 0 4px 4px; } */
+
+
+ul.faqs { list-style: none; }
+ul.faqs li.q { list-style: none; color: #001a72;  }
+ul.faqs li.a { list-style: none; margin-bottom: 25px; }
+
+
+
+
+
+

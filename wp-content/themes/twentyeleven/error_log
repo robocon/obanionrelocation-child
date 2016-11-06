@@ -1,0 +1,11 @@
+[28-Oct-2013 18:50:20 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/obanion/public_html/wp-content/themes/twentyeleven/tag.php on line 10
+[01-Nov-2013 01:22:10 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/obanion/public_html/wp-content/themes/twentyeleven/index.php on line 15
+[26-Dec-2013 13:39:17 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/obanion/public_html/wp-content/themes/twentyeleven/404.php on line 10
+[24-May-2014 16:32:26 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/obanion/public_html/wp-content/themes/twentyeleven/index.php on line 15
+[28-May-2014 13:54:54 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/obanion/public_html/wp-content/themes/twentyeleven/tag.php on line 10
+[30-May-2014 07:52:27 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/obanion/public_html/wp-content/themes/twentyeleven/404.php on line 10
+[21-Jul-2015 22:02:27 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/obanion/public_html/wp-content/themes/twentyeleven/404.php on line 10
+[08-Mar-2016 15:08:05 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/obanion/public_html/wp-content/themes/twentyeleven/author.php on line 10
+[28-Apr-2016 02:57:30 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/obanion/public_html/wp-content/themes/twentyeleven/404.php on line 10
+[12-May-2016 12:00:01 America/Denver] PHP Fatal error:  Call to undefined function is_404() in /home/obanion/public_html/wp-content/themes/twentyeleven/footer.php on line 21
+[06-Jul-2016 19:06:43 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/obanion/public_html/wp-content/themes/twentyeleven/404.php on line 10
