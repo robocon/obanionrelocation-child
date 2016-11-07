@@ -1,8 +1,119 @@
 /*
-Theme Name:     Obanionrelocation Child
+Theme Name:     OBanion Real Estate & Relocation Services Child
 Author:         Chanok
 Template:       obanionrelocation
+Version:        0.1.0
 */
 
 @import url("../obanionrelocation/style.css");
 
+.container{
+    width: 786px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+div#menu {
+    height: 24px;
+    width: 773px;
+    background: none;
+    margin: 8px auto 8px 2px;
+}
+div#menu li.menuItem {
+    clear: none;
+    display: block;
+    float: left;
+    margin: 0 3px 0 0;
+    padding: 0;
+    height: 24px;
+}
+div#menu li.menuItem a {
+    clear: none;
+    display: table-cell;
+    padding: 0;
+    height: 24px;
+    vertical-align: middle;
+    background-color: #9D0000;
+    background-image: none;
+    border: 1px solid #000000;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+}
+div#menu li.menuItem a:hover{
+    color: #FCFF00;
+    text-decoration: none;
+}
+div#menu li.menu-extend a {
+    height: 24px!important;
+}
+
+div#featuredHome h1{
+    font-size: 1.2em;
+    margin: 0;
+}
+img.tilead{
+    margin: 7px 4px;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        background-color: #ffffff;
+    }
+    .header-logo{
+        width: 100%;
+    }
+    div#wrap,
+    div#menu{
+        width: 100%;
+    }
+    div#wrap{
+        background-size: 100%;
+    }
+    div#menu{
+        height: auto;
+    }
+    div#menu li.menuItem{
+        float: none;
+    }
+    div#menu li.menuItem a{
+        width: 100%!important;
+        text-align: left;
+        display: block;
+    }
+
+    div#leftCol {
+        float: none;
+        border-right: 0;
+        width: 100%;
+        margin-left: 0;
+        padding-right: 0;
+    }
+    div.bigMenu{
+        width: 100%;
+    }
+
+    div#rightCol {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+    div#featuredHome,
+    div#featuredHome a[class^="featurePhoto"]{
+        width: 100%;
+    }
+    div#featuredHome h1,
+    div#featuredInfo{
+        height: auto;
+    }
+
+    div#sig {
+        background-color: transparent;
+        width: 100%;
+        color: white;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+}
